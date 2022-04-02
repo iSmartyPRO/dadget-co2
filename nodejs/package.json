@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "node helpers/install-windows-service.js",
+    "uninstall": "node helpers/uninstall-windows-service.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "node-cron": "^3.0.0",
+    "read-last-lines": "^1.8.0",
+    "node-windows": "1.0.0-beta.6"
+  }
+}
